@@ -10,7 +10,6 @@ export default function SavedList(props) {
         <span className="saved-movie">{movie.title}</span>
       ))}
       <NavLink to='/' activeClassName={"home-button"}>Home</NavLink>
-      {/* <div>Home</div> */}
     </div>
   );
 }
